@@ -6,6 +6,10 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.sample.viewbindingdelegate.databinding.FragmentTestBinding
 
+/**
+ * Created by abhinav on 18/1/21.
+ */
+
 class TestFragment : Fragment(R.layout.fragment_test) {
 
     private val binding: FragmentTestBinding by viewBinding()

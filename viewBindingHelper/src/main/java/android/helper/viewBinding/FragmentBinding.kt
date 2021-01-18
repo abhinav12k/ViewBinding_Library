@@ -10,6 +10,11 @@ import androidx.viewbinding.ViewBinding
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty
 
+/**
+ * Created by abhinav on 18/1/21.
+ * Thanks Gabor Varadi for the article
+ */
+
 inline fun <reified T : ViewBinding> Fragment.viewBinding() = FragmentBinding(T::class.java, this)
 
 class FragmentBinding<T : ViewBinding>(

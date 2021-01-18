@@ -6,6 +6,10 @@ import androidx.viewbinding.ViewBinding
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty
 
+/**
+ * Created by abhinav on 18/1/21.
+ */
+
 inline fun <reified T : ViewBinding> Activity.viewBinding() =
     ActivityBindingHelper(T::class.java)
 

@@ -7,6 +7,10 @@ import android.opengl.Visibility
 import android.view.View
 import com.sample.viewbindingdelegate.databinding.ActivityMainBinding
 
+/**
+ * Created by abhinav on 18/1/21.
+ */
+
 class MainActivity : AppCompatActivity() {
 
     private val binding: ActivityMainBinding by viewBinding()
