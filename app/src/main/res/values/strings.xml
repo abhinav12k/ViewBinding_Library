@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewBindingDelegate</string>
+    <string name="fragment_text">Successfully initialized Fragment Using Kotlin Delegates</string>
+    <string name="show_fragment">Show Fragment</string>
+</resources>

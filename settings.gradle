@@ -1,0 +1,3 @@
+include ':viewBindingHelper'
+include ':app'
+rootProject.name = "ViewBindingDelegate"
