@@ -54,6 +54,27 @@ class TestFragment : Fragment(R.layout.fragment_test) {
 ```
 Incase of fragments Use onViewCreated instead of onCreateView. UI for the fragment is taken care by the library you need not to use onCreateView for initializing the UI for fragment.
 
+#### Quick Fixes
+- If you are facing this error
+
+```error
+Cannot inline bytecode built with JVM target 1.8 into bytecode that is being built with JVM target 1.6. Please specify proper '-jvm-target' option
+```
+Then update your JVM target to 1.8 in the app level build.gradle file
+
+```gradle
+android{
+	...
+    	compileOptions {
+        	sourceCompatibility JavaVersion.VERSION_1_8
+        	targetCompatibility JavaVersion.VERSION_1_8
+    	}
+    	kotlinOptions {
+        	jvmTarget = '1.8'
+    	}
+}
+```
+
 ## License
 
     Copyright (c) 2021 Abhinav
