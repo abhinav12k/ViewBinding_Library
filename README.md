@@ -1,6 +1,7 @@
 # ViewBinding Library
 ![JitPack](https://img.shields.io/jitpack/v/github/abhinav78910/ViewBinding_Library?style=for-the-badge)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/abhinav78910/ViewBinding_Library?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/abhinav78910/ViewBinding_Library?style=for-the-badge)
 
 This library helps to reduce the boilerplate code in initializing activities and fragments using ViewBinding. With this library you can initialize fragments, activities with a single line of code and can use the reference anywhere in the file.
 
