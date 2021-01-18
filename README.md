@@ -1,4 +1,7 @@
 # ViewBinding Library
+![JitPack](https://img.shields.io/jitpack/v/github/abhinav78910/ViewBinding_Library?style=for-the-badge)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/abhinav78910/ViewBinding_Library?style=for-the-badge)
+
 This library helps to reduce the boilerplate code in initializing activities and fragments using ViewBinding. With this library you can initialize fragments, activities with a single line of code and can use the reference anywhere in the file.
 
 ## Installation
@@ -6,20 +9,20 @@ This library helps to reduce the boilerplate code in initializing activities and
 - Add the Jitpack.io dependency in project level gradle file
 
 ```gradle
-  allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
   
 - Add `ViewBinding_Library` dependency in app level gradle file (Replace `Tag` with latest release)
 
 ```gradle
-	dependencies {
-	        implementation 'com.github.abhinav78910:ViewBinding_Library:Tag'
-	}
+dependencies {
+	implementation 'com.github.abhinav78910:ViewBinding_Library:Tag'
+}
 ```
 
 ### Using ViewBinding_Library into your Android Project
